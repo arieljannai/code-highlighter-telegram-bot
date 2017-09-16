@@ -1,0 +1,20 @@
+{
+  "name": "highlighter",
+  "version": "0.0.1",
+  "description": "highlight.js bot",
+  "main": "highlighter.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "highlight.js": "^9.12.0",
+    "tmp-promise": "^1.0.3",
+    "webshot": "^0.18.0"
+  }
+}
