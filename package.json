@@ -1,8 +1,8 @@
 {
-  "name": "highlighter",
+  "name": "code-highlighter-telegram-bot",
   "version": "0.0.1",
-  "description": "highlight.js bot",
-  "main": "highlighter.js",
+  "description": "code-highlighter-telegram-bot",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
