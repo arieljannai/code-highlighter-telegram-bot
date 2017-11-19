@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
 	htmlTemplate: {
 		content: '<head>__INSERT_STYLE_HERE</head><body>' +

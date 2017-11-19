@@ -1,3 +1,5 @@
+'use strict';
+
 const Highlighter = require('./lib/highlighter');
 const wbs = require('./lib/webshot');
 
@@ -16,6 +18,7 @@ function main() {
 		})
 		.then((content) => {
 			console.log(content);
+			return require('fs').writeFileSync('img.png', content);
 		})
 		.then(() => console.log('done'))
 		.catch((err) => console.error('oh no', err));
